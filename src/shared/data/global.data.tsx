@@ -70,7 +70,7 @@ export const headerData: HeaderProps = {
   actions: [
     {
       text: 'Download',
-      href: '#!',
+      href: 'https://themewagon.com/themes/tailnext',
     },
   ],
   isSticky: true,

@@ -1,15 +1,14 @@
-const SITE = require('./src/config.js').SITE;
-
 /** @type {import('next').NextConfig} */
 module.exports = {
   reactStrictMode: true,
-
-  trailingSlash: SITE.trailingSlash,
-  basePath: SITE.basePathname !== '/' ? SITE.basePathname : '',
-
+  trailingSlash: true,
+  output : "export",
+  basePath: '/tailnext',
+  assetPrefix: '/tailnext',
   swcMinify: true,
   poweredByHeader: false,
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: 'https',
