@@ -50,11 +50,11 @@ export const headerData: HeaderProps = {
         },
         {
           label: 'Terms & Conditions',
-          href: '/terms',
+          href: 'terms',
         },
         {
           label: 'Privacy Policy',
-          href: '/privacy',
+          href: 'privacy',
         },
       ],
     },
@@ -85,11 +85,11 @@ export const footerData: FooterProps = {
   links: [
     {
       label: 'Terms & Conditions',
-      href: '/terms',
+      href: 'terms',
     },
     {
       label: 'Privacy Policy',
-      href: '/privacy',
+      href: 'privacy',
     },
   ],
   columns: [
@@ -224,7 +224,7 @@ export const footerData: FooterProps = {
         Distributed by{' '}
         <a
           className="font-semibold text-slate-900 dark:text-gray-200 hover:text-blue-600 hover:underline dark:hover:text-blue-600"
-          href="https://github.com/themewagon/tailnext"
+          href="https://themewagon.com"
           target="_blank"
         >
           {' '}
@@ -240,11 +240,11 @@ export const footerData2: FooterProps = {
   links: [
     {
       label: 'Terms & Conditions',
-      href: '/terms',
+      href: 'terms',
     },
     {
       label: 'Privacy Policy',
-      href: '/privacy',
+      href: 'privacy',
     },
   ],
   columns: [
@@ -287,7 +287,7 @@ export const footerData2: FooterProps = {
         Distributed by{' '}
         <a
           className="font-semibold text-slate-900 dark:text-gray-200 hover:text-blue-600 hover:underline dark:hover:text-blue-600"
-          href="https://github.com/themewagon/tailnext"
+          href="https://themewagon.com"
           target="_blank"
         >
           {' '}
